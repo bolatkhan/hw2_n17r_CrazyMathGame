@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE24CFF21D08226300E367BD /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24CFF11D08226300E367BD /* ScoreViewController.swift */; };
+		CE24CFF41D083BC100E367BD /* Score2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24CFF31D083BC100E367BD /* Score2ViewController.swift */; };
+		CE24CFF61D083EB800E367BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE24CFF51D083EB800E367BD /* TableViewCell.swift */; };
+		CE24CFF81D08423900E367BD /* iChat Icons in Resources */ = {isa = PBXBuildFile; fileRef = CE24CFF71D08423900E367BD /* iChat Icons */; };
+		CEFCFC7C1D07DD5B0086CB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCFC7B1D07DD5B0086CB9D /* AppDelegate.swift */; };
+		CEFCFC7E1D07DD5B0086CB9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCFC7D1D07DD5B0086CB9D /* ViewController.swift */; };
+		CEFCFC811D07DD5B0086CB9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFCFC7F1D07DD5B0086CB9D /* Main.storyboard */; };
+		CEFCFC831D07DD5B0086CB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFCFC821D07DD5B0086CB9D /* Assets.xcassets */; };
+		CEFCFC861D07DD5B0086CB9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFCFC841D07DD5B0086CB9D /* LaunchScreen.storyboard */; };
+		CEFCFC911D07DD5B0086CB9D /* Crazy_MathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCFC901D07DD5B0086CB9D /* Crazy_MathTests.swift */; };
+		CEFCFC9C1D07DD5B0086CB9D /* Crazy_MathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCFC9B1D07DD5B0086CB9D /* Crazy_MathUITests.swift */; };
+		CEFCFCAB1D07E5460086CB9D /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFCFCAA1D07E5460086CB9D /* MathViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFCFC8D1D07DD5B0086CB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFCFC701D07DD5B0086CB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFCFC771D07DD5B0086CB9D;
+			remoteInfo = "Crazy Math";
+		};
+		CEFCFC981D07DD5B0086CB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFCFC701D07DD5B0086CB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFCFC771D07DD5B0086CB9D;
+			remoteInfo = "Crazy Math";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE24CFF11D08226300E367BD /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		CE24CFF31D083BC100E367BD /* Score2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score2ViewController.swift; sourceTree = "<group>"; };
+		CE24CFF51D083EB800E367BD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE24CFF71D08423900E367BD /* iChat Icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "iChat Icons"; path = "../../../../../../Library/Application Support/Apple/iChat Icons"; sourceTree = "<group>"; };
+		CEFCFC781D07DD5B0086CB9D /* Crazy Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCFC7B1D07DD5B0086CB9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFCFC7D1D07DD5B0086CB9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFCFC801D07DD5B0086CB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFCFC821D07DD5B0086CB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFCFC851D07DD5B0086CB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFCFC871D07DD5B0086CB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCFC8C1D07DD5B0086CB9D /* Crazy MathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy MathTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCFC901D07DD5B0086CB9D /* Crazy_MathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_MathTests.swift; sourceTree = "<group>"; };
+		CEFCFC921D07DD5B0086CB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCFC971D07DD5B0086CB9D /* Crazy MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCFC9B1D07DD5B0086CB9D /* Crazy_MathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_MathUITests.swift; sourceTree = "<group>"; };
+		CEFCFC9D1D07DD5B0086CB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFCFCAA1D07E5460086CB9D /* MathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFCFC751D07DD5B0086CB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC891D07DD5B0086CB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC941D07DD5B0086CB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFCFC6F1D07DD5B0086CB9D = {
+			isa = PBXGroup;
+			children = (
+				CEFCFC7A1D07DD5B0086CB9D /* Crazy Math */,
+				CEFCFC8F1D07DD5B0086CB9D /* Crazy MathTests */,
+				CEFCFC9A1D07DD5B0086CB9D /* Crazy MathUITests */,
+				CEFCFC791D07DD5B0086CB9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFCFC791D07DD5B0086CB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCFC781D07DD5B0086CB9D /* Crazy Math.app */,
+				CEFCFC8C1D07DD5B0086CB9D /* Crazy MathTests.xctest */,
+				CEFCFC971D07DD5B0086CB9D /* Crazy MathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFCFC7A1D07DD5B0086CB9D /* Crazy Math */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCFCA91D07DD750086CB9D /* Sup files */,
+				CEFCFC7D1D07DD5B0086CB9D /* ViewController.swift */,
+				CEFCFCAA1D07E5460086CB9D /* MathViewController.swift */,
+				CE24CFF11D08226300E367BD /* ScoreViewController.swift */,
+				CE24CFF31D083BC100E367BD /* Score2ViewController.swift */,
+				CEFCFC7F1D07DD5B0086CB9D /* Main.storyboard */,
+				CE24CFF71D08423900E367BD /* iChat Icons */,
+				CE24CFF51D083EB800E367BD /* TableViewCell.swift */,
+			);
+			path = "Crazy Math";
+			sourceTree = "<group>";
+		};
+		CEFCFC8F1D07DD5B0086CB9D /* Crazy MathTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCFC901D07DD5B0086CB9D /* Crazy_MathTests.swift */,
+				CEFCFC921D07DD5B0086CB9D /* Info.plist */,
+			);
+			path = "Crazy MathTests";
+			sourceTree = "<group>";
+		};
+		CEFCFC9A1D07DD5B0086CB9D /* Crazy MathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCFC9B1D07DD5B0086CB9D /* Crazy_MathUITests.swift */,
+				CEFCFC9D1D07DD5B0086CB9D /* Info.plist */,
+			);
+			path = "Crazy MathUITests";
+			sourceTree = "<group>";
+		};
+		CEFCFCA91D07DD750086CB9D /* Sup files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFCFC7B1D07DD5B0086CB9D /* AppDelegate.swift */,
+				CEFCFC821D07DD5B0086CB9D /* Assets.xcassets */,
+				CEFCFC841D07DD5B0086CB9D /* LaunchScreen.storyboard */,
+				CEFCFC871D07DD5B0086CB9D /* Info.plist */,
+			);
+			name = "Sup files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFCFC771D07DD5B0086CB9D /* Crazy Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCFCA01D07DD5B0086CB9D /* Build configuration list for PBXNativeTarget "Crazy Math" */;
+			buildPhases = (
+				CEFCFC741D07DD5B0086CB9D /* Sources */,
+				CEFCFC751D07DD5B0086CB9D /* Frameworks */,
+				CEFCFC761D07DD5B0086CB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crazy Math";
+			productName = "Crazy Math";
+			productReference = CEFCFC781D07DD5B0086CB9D /* Crazy Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFCFC8B1D07DD5B0086CB9D /* Crazy MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCFCA31D07DD5B0086CB9D /* Build configuration list for PBXNativeTarget "Crazy MathTests" */;
+			buildPhases = (
+				CEFCFC881D07DD5B0086CB9D /* Sources */,
+				CEFCFC891D07DD5B0086CB9D /* Frameworks */,
+				CEFCFC8A1D07DD5B0086CB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFCFC8E1D07DD5B0086CB9D /* PBXTargetDependency */,
+			);
+			name = "Crazy MathTests";
+			productName = "Crazy MathTests";
+			productReference = CEFCFC8C1D07DD5B0086CB9D /* Crazy MathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFCFC961D07DD5B0086CB9D /* Crazy MathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFCFCA61D07DD5B0086CB9D /* Build configuration list for PBXNativeTarget "Crazy MathUITests" */;
+			buildPhases = (
+				CEFCFC931D07DD5B0086CB9D /* Sources */,
+				CEFCFC941D07DD5B0086CB9D /* Frameworks */,
+				CEFCFC951D07DD5B0086CB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFCFC991D07DD5B0086CB9D /* PBXTargetDependency */,
+			);
+			name = "Crazy MathUITests";
+			productName = "Crazy MathUITests";
+			productReference = CEFCFC971D07DD5B0086CB9D /* Crazy MathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFCFC701D07DD5B0086CB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Roborzoid;
+				TargetAttributes = {
+					CEFCFC771D07DD5B0086CB9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CEFCFC8B1D07DD5B0086CB9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CEFCFC771D07DD5B0086CB9D;
+					};
+					CEFCFC961D07DD5B0086CB9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CEFCFC771D07DD5B0086CB9D;
+					};
+				};
+			};
+			buildConfigurationList = CEFCFC731D07DD5B0086CB9D /* Build configuration list for PBXProject "Crazy Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFCFC6F1D07DD5B0086CB9D;
+			productRefGroup = CEFCFC791D07DD5B0086CB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFCFC771D07DD5B0086CB9D /* Crazy Math */,
+				CEFCFC8B1D07DD5B0086CB9D /* Crazy MathTests */,
+				CEFCFC961D07DD5B0086CB9D /* Crazy MathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFCFC761D07DD5B0086CB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE24CFF81D08423900E367BD /* iChat Icons in Resources */,
+				CEFCFC861D07DD5B0086CB9D /* LaunchScreen.storyboard in Resources */,
+				CEFCFC831D07DD5B0086CB9D /* Assets.xcassets in Resources */,
+				CEFCFC811D07DD5B0086CB9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC8A1D07DD5B0086CB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC951D07DD5B0086CB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFCFC741D07DD5B0086CB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCFC7E1D07DD5B0086CB9D /* ViewController.swift in Sources */,
+				CEFCFCAB1D07E5460086CB9D /* MathViewController.swift in Sources */,
+				CEFCFC7C1D07DD5B0086CB9D /* AppDelegate.swift in Sources */,
+				CE24CFF61D083EB800E367BD /* TableViewCell.swift in Sources */,
+				CE24CFF21D08226300E367BD /* ScoreViewController.swift in Sources */,
+				CE24CFF41D083BC100E367BD /* Score2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC881D07DD5B0086CB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCFC911D07DD5B0086CB9D /* Crazy_MathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFCFC931D07DD5B0086CB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFCFC9C1D07DD5B0086CB9D /* Crazy_MathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFCFC8E1D07DD5B0086CB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFCFC771D07DD5B0086CB9D /* Crazy Math */;
+			targetProxy = CEFCFC8D1D07DD5B0086CB9D /* PBXContainerItemProxy */;
+		};
+		CEFCFC991D07DD5B0086CB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFCFC771D07DD5B0086CB9D /* Crazy Math */;
+			targetProxy = CEFCFC981D07DD5B0086CB9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFCFC7F1D07DD5B0086CB9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFCFC801D07DD5B0086CB9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFCFC841D07DD5B0086CB9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFCFC851D07DD5B0086CB9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFCFC9E1D07DD5B0086CB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFCFC9F1D07DD5B0086CB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFCFCA11D07DD5B0086CB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crazy Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Crazy-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFCFCA21D07DD5B0086CB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crazy Math/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Crazy-Math";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEFCFCA41D07DD5B0086CB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crazy MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Crazy-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Math.app/Crazy Math";
+			};
+			name = Debug;
+		};
+		CEFCFCA51D07DD5B0086CB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crazy MathTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Crazy-MathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Math.app/Crazy Math";
+			};
+			name = Release;
+		};
+		CEFCFCA71D07DD5B0086CB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crazy MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Crazy-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crazy Math";
+			};
+			name = Debug;
+		};
+		CEFCFCA81D07DD5B0086CB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crazy MathUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Crazy-MathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crazy Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFCFC731D07DD5B0086CB9D /* Build configuration list for PBXProject "Crazy Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCFC9E1D07DD5B0086CB9D /* Debug */,
+				CEFCFC9F1D07DD5B0086CB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCFCA01D07DD5B0086CB9D /* Build configuration list for PBXNativeTarget "Crazy Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCFCA11D07DD5B0086CB9D /* Debug */,
+				CEFCFCA21D07DD5B0086CB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCFCA31D07DD5B0086CB9D /* Build configuration list for PBXNativeTarget "Crazy MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCFCA41D07DD5B0086CB9D /* Debug */,
+				CEFCFCA51D07DD5B0086CB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFCFCA61D07DD5B0086CB9D /* Build configuration list for PBXNativeTarget "Crazy MathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFCFCA71D07DD5B0086CB9D /* Debug */,
+				CEFCFCA81D07DD5B0086CB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFCFC701D07DD5B0086CB9D /* Project object */;
+}
